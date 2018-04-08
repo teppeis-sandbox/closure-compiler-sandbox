@@ -1,0 +1,23 @@
+{
+  "name": "closure-compiler-repro",
+  "version": "1.0.0",
+  "author": "Teppei Sato <teppeis@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "google-closure-compiler --flagfile closure.conf"
+  },
+  "dependencies": {
+    "google-closure-compiler": "^20180402.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/teppeis-sandbox/closure-compiler-repro#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teppeis-sandbox/closure-compiler-repro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teppeis-sandbox/closure-compiler-repro/issues"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
