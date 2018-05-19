@@ -4,10 +4,10 @@
   "author": "Teppei Sato <teppeis@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "build": "google-closure-compiler --flagfile closure.conf"
+    "build": "java -jar ./node_modules/google-closure-compiler/compiler.jar --flagfile closure.conf"
   },
   "dependencies": {
-    "google-closure-compiler": "^20180402.0.0"
+    "google-closure-compiler": "^20180319.0.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/teppeis-sandbox/closure-compiler-repro#readme",
