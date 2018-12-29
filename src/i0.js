@@ -8,4 +8,4 @@ Hello.prototype.hello = function(msg) {
   alert(msg);
 };
 
-module.exports = Hello;
+export default Hello;
