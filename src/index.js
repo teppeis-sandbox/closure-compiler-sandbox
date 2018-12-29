@@ -1,5 +1,11 @@
+// This `require` is required when --dependency_mode=STRICT
+// require('./i0');
+
 /**
- * @suppress {uselessCode}
+ * @constructor
+ * @extends {./i0}
  */
-Map;
-Set;
+function SubHello() {
+}
+
+new SubHello().hello('hay!');
