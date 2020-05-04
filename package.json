@@ -7,7 +7,7 @@
     "build": "google-closure-compiler --flagfile closure.conf"
   },
   "dependencies": {
-    "google-closure-compiler": "^20191111.0.0"
+    "google-closure-compiler": "^20200426.0.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/teppeis-sandbox/closure-compiler-repro#readme",
